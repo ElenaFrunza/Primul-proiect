@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.2.6/pdfobject.min.js"></script>
+
+    <link rel="icon" href="../images/logo.jpg" />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <title>LTMS</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <table align="center">
+                <tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><i id="menu-btn" class="fas fa-bars" onclick="show()" ;></i></td>
+                </tr>
+                <td class="mob-hide" width=10%><img src="../images/mold.gif" alt="Aici e drapelul RM"></td>
+                <td class="mob-hide" width=20%><img src="../images/carte.png" alt="Imaginea unor carti"></td>
+                <td class="mob-100" width="40%"> <a href="../index.html">
+                        <i><span>Instituția Publică</span>
+                            <span>Liceul Teoretic </span>
+                            <span><b>"Mihai Stratulat"</b> </span></i></a></td>
+                <td class="mob-hide" width=10%><img src="../images/penita.png" alt="O imagine cu penita"></td>
+                <td class="mob-hide" width=50%><img src="../images/criuleni.png" alt="Stema r.Criuleni"></td>
+                </tr>
+            </table>
+        </div>
+    </header>
+
+    <div class="page-container">
+        <aside id="side-menu">
+            <a href="../index.html">Home <i class="fas fa-house-user"></i></a>
+            <a href="profesori.html">Profesori <i class="fas fa-users"></i></a>
+            <a href="informati.html">Informații <i class="fas fa-exclamation-circle"></i></i></a>
+            <a href="evenimente.html">Evenimente <i class="far fa-calendar-alt"></i></a>
+            <a href="galerie_foto.html">Galerie Foto <i class="fas fa-images"></i></a>
+            <a href="galerie_video.html">Galerie Video <i class="fas fa-video"></i></a>
+            <a href="inmatriculare.html">Inmatriculare <i class="fas fa-edit"></i></a>
+            <a href="contacte.html">Contacte <i class="fas fa-address-book"></i></a>
+        </aside>
+
+        <main>
+            <h2 class="title">Contacte</h2>
+
+            <div class="row">
+
+                <div class="col-50">
+                    <h3>Contactează-ne dacă:</h3>
+
+                    <ul class="contact-list">
+                        <li><i class="fas fa-check"></i>   Doriți să aflați mai multe detalii despre instituție</li>
+                        <li><i class="fas fa-check"></i>   Să depuneți dosarul pentru înmatriculare</li>
+                        <li><i class="fas fa-check"></i>   Să scrieți o recenzie</li>
+                        <li><i class="fas fa-check"></i>   Ai sugestii/propuneri</li>
+                    </ul>
+
+                </div>
+
+                <div class="col-50">
+                    <h3>Date de contact:</h3>
+
+                    <ul class="contact-list">
+                        <li><b><i class="fas fa-map-marker-alt"></i>  Adresa:</b>str. Piața Demnității Naționale nr.4, s.Boșcana, r.Criuleni</li>
+                        <li><b><i class="fas fa-phone-alt"></i>   Telefon:</b>0248-40-285</li>
+                        <li><b><i class="fas fa-user-clock"></i>   Ore de lucru:</b>08:00 - 16:00</li>
+                        <li><b><i class="fas fa-link"></i>     Pagina oficială Facebook:</b><a target="_blank" href="https://www.facebook.com/Liceul-Teoretic-Mihail-Stratulat-Boscana-Criuleni-1383061555314571/?ref=page_internal"><u>Click aici</u></a></li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-50">
+                    <div class="contact-form">
+
+                        <form>
+                            <h3 class="centered">Lasa un mesaj</h3> <input type="text" id="nume" placeholder="Nume Prenume" required />
+                            <input type="email" id="email" placeholder="Email" required />
+                            <textarea id="mesaj" rows="4" placeholder="Mesaj" required>
+                            </textarea> <input type="submit" value="Transmite" onclick="sendEmail()" />
+                        </form>
+                    </div>
+                </div>
+
+
+                <div class="col-50">
+                    <iframe class="map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d842.8118658709517!2d28.999619290076776!3d47.124934835505016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c963fbdf7ca7e7%3A0xc20f2f7f55fe3ed1!2sLiceul%20Teoretic%20%22Mihail%20Stratulat%22!5e0!3m2!1sro!2s!4v1628535312657!5m2!1sro!2s"
+                        allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </main>
+
+    </div>
+
+
+    <footer>
+        <span style="font-size: 20px;"><b>Boșcana 2021</b></span><br>
+        <span><b><i class="far fa-copyright"></i><i> All rights are reserved by Frunza Elena</i></b></span>
+    </footer>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
